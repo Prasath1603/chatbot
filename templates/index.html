@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mental Health Chatbot</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f0f4f8;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 50px;
+        }
+        .chat-container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            width: 400px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #5c9ded;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        .prediction {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <h2>Mental Health Chatbot</h2>
+        <form method="POST">
+            <input type="text" name="message" placeholder="How are you feeling today?" required>
+            <button type="submit">Predict</button>
+        </form>
+        {% if prediction %}
+        <div class="prediction">
+            Predicted Mental State: <strong>{{ prediction }}</strong>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
