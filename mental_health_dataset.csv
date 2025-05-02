@@ -1,0 +1,21 @@
+text,sentiment
+"I am feeling very low and hopeless.",sad
+"Today was a great day, I feel amazing!",happy
+"I don't know what to do, I'm stressed.",stressed
+"I'm fine, nothing much is happening.",neutral
+"Everything is making me angry.",angry
+"I feel so relaxed and calm.",happy
+"Life feels meaningless.",sad
+"Work is overwhelming lately.",stressed
+"I'm okay I guess.",neutral
+"I’m filled with joy!",happy
+"I’m really upset and disappointed.",sad
+"This day is so frustrating.",angry
+"I’m doing alright, thanks for asking.",neutral
+"Feeling anxious and worried.",stressed
+"Happy to be with friends!",happy
+"I feel ignored and unloved.",sad
+"I am so mad about that!",angry
+"I just need a break from everything.",stressed
+"Nothing excites me anymore.",sad
+"I feel peaceful today.",happy
